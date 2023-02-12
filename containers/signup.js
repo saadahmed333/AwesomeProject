@@ -7,7 +7,7 @@ const Signup = ({navigation}) => {
   const [contact, setContact] = useState()
   const [name, setName] = useState("")
   const [load, setLoad] = useState(false)
-  const baseUrl = "http://localhost:3002/user"
+  const baseUrl = "https://backend-hackaton-production.up.railway.app/user"
 
   const datas = async () => {
     console.log(name)

@@ -5,7 +5,7 @@ const AdminUser = ({ navigation }) => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [load, setLoad] = useState(false)
-    const baseUrl = "http://localhost:3002/adminUser"
+    const baseUrl = "https://backend-hackaton-production.up.railway.app/adminUser"
 
     const datas = async () => {
       try {
